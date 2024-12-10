@@ -7,7 +7,7 @@ app.use(express.json());
 
 
 app.get('/video', (req, res) => {
-    const app = [
+const app = [
         {
             id: 1,
             img_url1: 'https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Thumbnail-10.png',
